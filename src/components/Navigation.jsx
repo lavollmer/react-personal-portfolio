@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
@@ -12,14 +12,18 @@ function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Contact</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
-                Projects Portfolio
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Resume</NavDropdown.Item>
-            </NavDropdown>
+            <Link to="/Home" className="nav-link">
+              Home
+            </Link>
+            <Link to="/Projects" className="nav-link">
+              Projects
+            </Link>
+            <Link to="/Contact" className="nav-link">
+              Contact
+            </Link>
+            <Link to="/Resume" className="nav-link">
+              Resume
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

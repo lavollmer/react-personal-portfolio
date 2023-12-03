@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 import Project from "./components/Project";
 import Bio from "./components/About";
+import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
@@ -13,10 +15,14 @@ function App() {
   return (
     <>
       <div>
-        <Header />
-        <Navigation />
+        <Header>
+          <Navigation />
+        </Header>
+        <Home />
         <Bio />
         <Project />
+        <Resume />
+        <Contact />
         <Footer />
       </div>
     </>
