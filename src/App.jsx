@@ -17,14 +17,14 @@ function App() {
         <Navigation />
         <Bio />
         <div>
-          for (let i=0; i < projects.length, i++ ) {
+          {/* for (let i=0; i < projects.length, i++ ) {
             let project = projects[0];
          <ProjectCard
               title={project.title}
               bio={project.bio}
               link={project.link}
             />
-          }
+          } */}
 
           {/* {projects.slice(0, 4).map((project) => (
             <ProjectCard
