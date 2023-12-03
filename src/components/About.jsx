@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-function Bio() {
+function About() {
   return (
     <div>
       <p>Web Developer, Pharmacist & Creative</p>
     </div>
-  )
+  );
 }
 
-export default Bio;
+export default About;
