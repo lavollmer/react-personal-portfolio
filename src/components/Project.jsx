@@ -5,9 +5,10 @@ import projects from "../data/projects";
 
 function Project() {
   return (
-    <div>
-      <p>Project</p>
-      {/* for (let i=0; i < projects.length, i++ ) {
+    <>
+      <div>
+        <p>Project</p>
+        {/* for (let i=0; i < projects.length, i++ ) {
             let project = projects[0];
          <ProjectCard
               title={project.title}
@@ -16,14 +17,15 @@ function Project() {
             />
           } */}
 
-      {/* {projects.slice(0, 4).map((project) => (
+        {/* {projects.slice(0, 4).map((project) => (
             <ProjectCard
               title={project.title}
               bio={project.bio}
               link={project.link}
             />
           ))} */}
-    </div>
+      </div>
+    </>
   );
 }
 

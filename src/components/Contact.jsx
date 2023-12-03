@@ -1,5 +1,6 @@
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
+import useState from "react";
 
 //THEN I see a contact form with fields for a name, an email address, and a message
 //WHEN I move my cursor out of one of the form fields without entering text
@@ -9,6 +10,8 @@ import InputGroup from "react-bootstrap/InputGroup";
 // THEN I receive a notification if I have entered an invalid email address
 
 function Contact() {
+  // const handleClick =
+
   return (
     <>
       <InputGroup className="mb-3">
@@ -26,11 +29,13 @@ function Contact() {
         />
         <InputGroup.Text id="basic-addon2">@example.com</InputGroup.Text>
       </InputGroup>
-
       <InputGroup>
         <InputGroup.Text>With textarea</InputGroup.Text>
         <Form.Control as="textarea" aria-label="With textarea" />
       </InputGroup>
+      <Button onClick={handleClick} variant="light">
+        Light
+      </Button>{" "}
     </>
   );
 }

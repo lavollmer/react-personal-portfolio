@@ -1,51 +1,29 @@
-import React from "react";
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import App from "./App";
+// import "./index.css";
+// // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
+// import { BrowserRouter, RouterProvider } from "react-router-dom";
+// import "bootstrap/dist/css/bootstrap.min.css";
+
+// const router = BrowserRouter();
+
+// ReactDOM.createRoot(document.getElementById("root")).render(
+//   <BrowserRouter>
+//     <RouterProvider router={router}>
+//       <App />
+//     </RouterProvider>
+//   </BrowserRouter>
+// );
+
 import ReactDOM from "react-dom/client";
-import App from "./App";
+import App from "./App.jsx";
+import React from "react";
 import "./index.css";
-// Bringing in the required imports from 'react-router-dom' to set up application routing behavior
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
 
-// import Footer from "./components/Footer";
-// import Header from "./components/Header";
-// import Navigation from "./components/Navigation";
-// import About from "./components/About";
-// import Home from "./components/Home";
-// import Project from "./components/Project";
-// import Contact from "./components/Contact";
-// import Resume from "./components/Resume";
-
-// Define the accessible routes, and which components respond to which URL
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <App />,
-//     errorElement: <Error />,
-//     children: [
-//       {
-//         index: true,
-//         element: <Home />,
-//       },
-//       {
-//         path: "/About",
-//         element: <About />,
-//       },
-//       {
-//         path: "/Project",
-//         element: <Project />,
-//       },
-//       {
-//         path: "/Contact",
-//         element: <Contact />,
-//       },
-//       {
-//         path: "/Resume",
-//         element: <Resume />,
-//       },
-//     ],
-//   },
-// ]);
-
+//takes App and injects into index.html page at the "root" ID
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
