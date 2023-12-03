@@ -12,8 +12,8 @@ function App() {
   return (
     <>
       <div>
-        <Navigation />
         <Header />
+        <Navigation />
         <Bio />
         <Project />
         <Footer />

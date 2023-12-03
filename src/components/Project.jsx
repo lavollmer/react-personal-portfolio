@@ -1,13 +1,9 @@
-import React from 'react';
+import React from "react";
+import ProjectItem from "./ProjectItem";
+import projects from "../data/projects";
 
 function Project() {
-  
-  
-  return (
-    <div>
-      <p>Project</p>
-    </div>
-  )
+  return <div></div>;
 }
 
 export default Project;
