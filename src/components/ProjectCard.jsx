@@ -1,8 +1,8 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Placeholder from "react-bootstrap/Placeholder";
-import ProjectItem from "./ProjectItem";
-import projects from "../data/projects";
+// import ProjectItem from "./ProjectItem";
+// import projects from "../data/projects";
 
 function ProjectCard(ProjectItem) {
   return (

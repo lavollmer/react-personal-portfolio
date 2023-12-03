@@ -7,16 +7,16 @@ export default [
   {
     title: "SQL - Employee Tracker",
     link: 'https://github.com/lavollmer/sql-employeetracker',
-     bio: '',
+     bio: 'This was made using in command lines',
   },
   {
     title: "Timed Quiz",
     link: 'https://github.com/lavollmer/timed-quiz',
-     bio: '',
+     bio: 'This quiz is about a snow leopard',
   },
   {
     title: "Note Taker",
     link: 'https://github.com/lavollmer/note-taker',
-     bio: '',
+     bio: 'This app allows the user to save and edit notes',
   }
 ]
